@@ -78,6 +78,29 @@ app.get("/jobs", async(req, res)=>{
     }
 }) 
 
+async function readJobById(jobId) {
+    try {
+        const job = await Job.findById(jobId);
+        return job;
+    } catch (error) {
+        throw error;
+    }
+}
+
+app.get("/jobs/id/:jobId", async (req, res) => {
+    try {
+        const job = await readJobById(req.params.jobId);
+        if (job) {
+            res.json(job);
+        } else {
+            res.status(404).json({ error: "Job not found" });
+        }
+    } catch (error) {
+        res.status(500).json({ error: "Failed to fetch job" });
+    }
+});
+
+
 async function deleteJob(jobId){
     try{
         const deletedJob = await Job.findByIdAndDelete(jobId)
@@ -91,7 +114,9 @@ async function deleteJob(jobId){
 app.delete("/jobs/:jobId", async(req, res)=>{
     try{
       const deletedJob =  await deleteJob(req.params.jobId)
+      if(deletedJob){
       res.status(200).json({message: 'Job deleted successfully'})
+      }
     }catch(error){
         res.status(500).json({error: "failed to delete job"})
     }
