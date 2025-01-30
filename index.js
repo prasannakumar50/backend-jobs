@@ -104,7 +104,7 @@ app.get("/jobs/id/:jobId", async (req, res) => {
 async function deleteJob(jobId){
     try{
         const deletedJob = await Job.findByIdAndDelete(jobId)
-        return deleteJob
+        return deletedJob
 
     }catch(error){
           throw error
