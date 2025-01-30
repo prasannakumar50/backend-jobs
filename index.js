@@ -111,7 +111,7 @@ async function deleteJob(jobId){
     }
 }
 
-app.delete("/jobs/:jobId", async(req, res)=>{
+app.delete("/jobs/id/:jobId", async(req, res)=>{
     try{
       const deletedJob =  await deleteJob(req.params.jobId)
       if(deletedJob){
