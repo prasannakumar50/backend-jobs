@@ -9,8 +9,8 @@
       "jobDescription": "Develop and maintain scalable web applications with cross-functional teams.",
       "qualifications": [
         "Bachelor's degree in Computer Science",
-        "3+ years of experience in full-stack development",
-        "Proficiency in JavaScript, React, and Node.js"
+        "3+ years of experience in full-stack development"
+       
       ]
     },
     {
@@ -22,8 +22,8 @@
       "jobDescription": "Create engaging content for blogs, articles, social media, and websites.",
       "qualifications": [
         "Bachelor's degree in Journalism, English, or related field",
-        "2+ years of experience in content writing or copywriting",
-        "Strong research and SEO knowledge"
+        "2+ years of experience in content writing or copywriting"
+        
       ]
     },
     {
@@ -35,8 +35,8 @@
       "jobDescription": "Analyze data trends and generate reports to support business decision-making.",
       "qualifications": [
         "Bachelor's degree in Statistics, Computer Science, or a related field",
-        "Experience with SQL, Python, and data visualization tools",
-        "Ability to interpret and present data insights effectively"
+        "Experience with SQL, Python, and data visualization tools"
+       
       ]
     },
     {
@@ -48,8 +48,8 @@
       "jobDescription": "Design user-friendly interfaces and improve user experiences across web and mobile applications.",
       "qualifications": [
         "Bachelor’s degree in Design, HCI, or related field",
-        "Experience conducting user research and usability testing",
-        "Proficiency in Figma, Adobe XD, and Sketch"
+        "Experience conducting user research and usability testing"
+       
       ]
     },
     {
@@ -61,8 +61,8 @@
       "jobDescription": "Maintain CI/CD pipelines, automate infrastructure, and improve system reliability.",
       "qualifications": [
         "Bachelor’s degree in Computer Science, IT, or related field",
-        "Experience with AWS, Docker, Kubernetes, and Terraform",
-        "Strong scripting skills (Python, Bash, or PowerShell)"
+        "Experience with AWS, Docker, Kubernetes, and Terraform"
+        
       ]
     },
     {
@@ -74,8 +74,8 @@
       "jobDescription": "Assist customers with inquiries, troubleshoot issues, and provide exceptional support.",
       "qualifications": [
         "High school diploma or equivalent (Bachelor’s preferred)",
-        "Excellent communication and problem-solving skills",
-        "Experience with CRM software like Zendesk or Freshdesk"
+        "Excellent communication and problem-solving skills"
+        
       ]
     }
   ]
