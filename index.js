@@ -1,4 +1,5 @@
 const express = require("express")
+const cors = require("cors")
 const app =express()
 
 
@@ -6,6 +7,7 @@ const {initializeDatabase} = require("./db/db.connect")
 const Job = require("./models/jobPosting.models");
 
 app.use(express.json())
+app.use(cors());
 
 initializeDatabase();
 
